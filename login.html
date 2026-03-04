@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body  >
+
+    <div id="container"   >
+       <div id="form"  >
+        <h1 style="color: rgb(111, 116, 116);">login page</h1>
+        
+      
+<br><br>
+enter email id : <br>
+        <input type="email" id="em" placeholder="enter email id" class="in">
+<br><br>
+enter password :
+<br>
+<input type="password" id="pass"placeholder="enter password" class="in"><br><br>
+<button type="submit" id="btn" onclick="loging()" style="background-color:rgb(31, 164, 42)">login </button>
+<div style="margin-top: 15px; color: aquamarine; display: flex;  ">   Don’t have an account? 
+        
+forget password !<br>
+</div>
+
+
+<button style="width: 100px;height: 30px; margin-bottom: 15px; background-color: aqua;" onclick="toggleForms()">sing up</button>
+<button style="width: 100px;height: 30px; margin-bottom: 15px; background-color: aqua;" > forget pass</button>
+
+</div>
+
+
+
+
+<div id="regi"  class="hidden">
+    <div id="A"> 
+        <h1 style="color: aqua;">register page</h1>
+         <input type="text" id="rname" placeholder="enter you name">
+<br><br>
+        <input type="email" id="rem" placeholder="enter email id">
+<br><br>
+<input type="password" id="rpass"placeholder="enter password"><br><br>
+<button type="submit" id="rbtn" onclick="regis()">register </button>
+
+<div class="toggle-link" style="color:yellowgreen; margin-top: 15px;">
+        Don’t have an account? 
+        <button onclick="toggleForms()" style="width: 100%; background-color:rgb(9, 160, 165);">login</button>
+      </div>
+    
+</div>
+
+  </div> 
+  <script src="reg.js"></script>
+</body>
+</html>
